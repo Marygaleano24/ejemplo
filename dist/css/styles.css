@@ -4234,6 +4234,18 @@ textarea.form-control-lg {
   border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
 }
 
+.btn-custom {
+  background-color: rgb(19, 19, 20);
+  background-image: linear-gradient(to right, rgb(255, 128, 0), #f7d128);
+  border: none;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  color: #fff;
+  border-radius: 25px;
+  transition: background 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(33, 33, 33, 0.4);
+}
+
 .card-footer {
   padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
   color: var(--bs-card-cap-color);
@@ -8126,7 +8138,8 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  /*background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;*/
+  background-color: #0c0658;
 }
 
 .bg-secondary {
@@ -10957,6 +10970,12 @@ html {
   padding: 1.25rem 2.5rem;
 }
 
+.callout-emphasis {
+  color: #460b0b;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
 .callout {
   padding: 15rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
@@ -10972,6 +10991,7 @@ html {
 }
 
 footer.footer {
+  background-color: #fd7e14;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
@@ -10987,7 +11007,7 @@ footer.footer .social-link {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: yellow;
   text-decoration: none;
 }
 
